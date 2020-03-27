@@ -143,7 +143,11 @@
   font-size: 1.6rem;
   color: rgb(223, 15, 119);
 }
-
+@media only screen and (max-width: 768px){
+  .Thank {
+    font-size: 40px;
+  }
+}
 .cr > p {
   padding-top: 0.5rem;
   color: White;
