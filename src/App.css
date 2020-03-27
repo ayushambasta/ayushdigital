@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+  /* font-family: 'Shadows Into Light', cursive; */
+}
+
+.Head {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #095f4a 0%, #46ecc3 100%);
+  /* background-color: #c40655; */
+}
+
+.TitleHead {
+  font-family: 'Shadows Into Light', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  max-width: 80%;
+  padding: 15px;
+  color: #eee5e9;
+  font-size: 190px;
+  line-height: 173px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #1c8a6e;
+}
+@media only screen and (max-width: 768px) {
+  .TitleHead {  
+  padding: 15px;
+  font-size: 75px;
+  line-height: 78px;
+  font-weight: 400;
+  text-transform: uppercase;
+  }
+}
+
+.About, .Skill {
+  background-color: #d0f7ed;
+}
+
+.AboutHeading {
+  padding: 80px 0 25px 0;
+  color: #0c6c7a;
+  font-weight: 50;
+  font-size: 45px;
+}
+
+.AboutDesc {
+  /* font-family: 'Poiret One', cursive; */
+  text-align: left;
+  font-size: larger;
+  letter-spacing: 0.03rem;
+  font-weight: 300;
+  line-height: 2rem;;
+  margin: 25px 0 80px 0;
+}
+
+.AboutImage > img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  max-width: 90%;
+  vertical-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .AboutImage > img {
+    display: none;
+  }
+}
+.Timeline {
+  background-color: #46ecc3;
+}
+.TimelineHeading {
+  padding: 80px 0 25px 0;
+  color: #c40655;
+  font-weight: 50;
+  font-size: 45px;
+}
+
+.Timelinemain {
+  padding: 0 0 4rem 0;
+}
+.Services {
+  background: #d0f7ed url('./image/image.jpeg') 50% 0 no-repeat fixed;;
+  min-width: 90vw;
+  min-height: 60vh;
+  background-size: cover;
+}
+
+.MyServices {
+  padding: 50px 0 0 0;
+  font-weight: 50;
+  font-size: 45px;
+  color: #fff;
+}
+
+.Serviceslist {
+  color: #fff;
+  font-size: 31px;
+  text-align: center;
+  padding: 2rem 2rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .Serviceslist {
+    text-align: left;
+    padding: 1rem 1rem;
+  }
+}
+
+.Myskills {
+  padding: 80px 0 25px 0;
+  color: #0c6c7a;
+  font-weight: 50;
+  font-size: 45px;
+}
+
+.Skilllist {
+  padding: 0 0 4rem 0;
+}
+
+.Thank {
+  background-color: #46ecc3;
+  padding: 40px 0 25px 0;
+  color: #c40655;
+  font-weight: 50;
+  font-size: 45px;
+}
+.Thank > p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  color: rgb(223, 15, 119);
+}
+
+.cr > p {
+  padding-top: 0.5rem;
+  color: White;
+}
